@@ -6,6 +6,14 @@
 
 function getCheapNames(products, limit) {
   // your code
+   let arr =[];
+   products.filter((product)=> product.price < limit).forEach(product => arr.push(product.name)
+  );
+  return arr;
+  
+
+
+
 }
 
 const products = [

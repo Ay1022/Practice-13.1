@@ -6,6 +6,8 @@
 
 function getAdults(users) {
   // your code
+  const adults = users.filter((user) => user.age >= 18);
+  return adults
 }
 
 const users = [

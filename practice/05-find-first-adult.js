@@ -6,6 +6,8 @@
 
 function findFirstAdult(users) {
   // your code
+  const userOlder = users.find((user)=> user.age >= 18)
+  return userOlder
 }
 
 const users = [

@@ -6,7 +6,15 @@
 
 function getFirstNameFromCity(users, city) {
   // your code
+  const user = users.find((user) => user.city === city);
+
+  if (user) {
+    return user.name;
+  }
+
+  return null;
 }
+
 
 const users = [
   { name: "Ann", age: 25, city: "Muscat" },

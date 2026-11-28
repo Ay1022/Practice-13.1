@@ -6,6 +6,8 @@
 
 function getExpensiveProducts(products, limit) {
   // your code
+  const expensiveProduct = products.filter((product=> product.price >  limit ))
+  return expensiveProduct;
 }
 
 const products = [

@@ -6,6 +6,10 @@
 
 function getPriceOf(products, name) {
   // your code
+ const priceProdect= products.find(product=>product.name === name)
+if(priceProdect) return priceProdect.price
+else return null
+
 }
 
 const products = [

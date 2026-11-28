@@ -6,6 +6,10 @@
 
 function applyTwice(value, action) {
   // your code
+  const firest = action(value)
+  const second= action(firest)
+  return second
+
 }
 
 // Expected output:

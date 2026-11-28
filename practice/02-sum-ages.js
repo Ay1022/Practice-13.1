@@ -6,6 +6,11 @@
 
 function sumAges(users) {
   // your code
+  let total=0;
+  users.forEach(user => {
+   total += user.age;
+  });
+  return total
 }
 
 const users = [

@@ -5,6 +5,9 @@
 
 function hasUser(users, name) {
   // your code
+  //!!user to convert to bolean
+  return Boolean(users.find((user)=>user.name === name));
+  
 }
 
 const users = [

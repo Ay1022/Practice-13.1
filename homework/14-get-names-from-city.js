@@ -6,6 +6,10 @@
 
 function getNamesFromCity(users, city) {
   // your code
+  let arr=[]
+  users.filter((user)=>user.city === city).forEach(user => arr.push(user.name)
+  );
+   return arr;
 }
 
 const users = [
